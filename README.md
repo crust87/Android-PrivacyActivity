@@ -1,7 +1,6 @@
 # Android-PrivacyActivity
 it's not library project!<br/>
-lock of application<br/>
-If set lock, call password activity when you back from home or screen of.
+If you set lock, call password activity when you back from home or screen of.<br/>
 See the code and mark your way. and.... I don't think it work well on lollipop..
 
 if you want to use this one fix PrivacyActivity.java Line 74.
@@ -26,6 +25,7 @@ public void onStop() {
 }
 ```
 
+## Screenshot
 ![](./screenshot_04.png)<br/>
 ![](./screenshot_05.png)<br/>
 ![](./screenshot_06.png)<br/>
