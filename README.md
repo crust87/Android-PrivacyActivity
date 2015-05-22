@@ -10,7 +10,7 @@ public void onStop() {
 		ActivityManager am = (ActivityManager) this.getSystemService(Context.ACTIVITY_SERVICE);
 		List<RunningTaskInfo> list = am.getRunningTasks(1);
 
-		// check if this activity goes other application package
+		// check if task goes other application package
 		// it's not working on lollipop. fix it!
 		for (RunningTaskInfo info : list) {
 			  if (info.baseActivity.getClassName().indexOf(packageName) < 0) {
