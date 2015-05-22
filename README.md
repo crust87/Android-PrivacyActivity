@@ -1,12 +1,14 @@
 # Android-PrivacyActivity
-Key guard of application<br/>
+it's not library project!<br/>
+lock of application<br/>
 If set lock, call password activity when you back from home or screen of.
+See the code and mark your way
 
 I don't think it work well on lollipop..
 
-![](./screenshot_01.png)
-![](./screenshot_02.png)
-![](./screenshot_03.png)
+![](./screenshot_04.png)<br/><br/>
+![](./screenshot_05.png)<br/>
+![](./screenshot_06.png)<br/>
 
 ## Licence
 Copyright 2015 Mabi
