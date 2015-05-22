@@ -6,7 +6,7 @@ See the code and mark your way
 
 I don't think it work well on lollipop..
 
-![](./screenshot_04.png)<br/><br/>
+![](./screenshot_04.png)<br/>
 ![](./screenshot_05.png)<br/>
 ![](./screenshot_06.png)<br/>
 
