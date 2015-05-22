@@ -4,9 +4,10 @@ lock of application<br/>
 If set lock, call password activity when you back from home or screen of.
 See the code and mark your way. and.... I don't think it work well on lollipop..
 
-if you want to use this one fix it.
-
-PrivacyActivity.java Line 74
+if you want to use this one fix PrivacyActivity.java Line 74.
+This code for detecting application change by recent list.
+but getRunningTasks is deprecated.
+find other way and let me know how you fix it.
 ```java
 @Override
 public void onStop() {
