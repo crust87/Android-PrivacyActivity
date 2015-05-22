@@ -2,9 +2,7 @@
 it's not library project!<br/>
 lock of application<br/>
 If set lock, call password activity when you back from home or screen of.
-See the code and mark your way
-
-I don't think it work well on lollipop..
+See the code and mark your way. and.... I don't think it work well on lollipop..
 
 ![](./screenshot_04.png)<br/>
 ![](./screenshot_05.png)<br/>
