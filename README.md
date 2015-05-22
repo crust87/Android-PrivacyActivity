@@ -4,6 +4,27 @@ lock of application<br/>
 If set lock, call password activity when you back from home or screen of.
 See the code and mark your way. and.... I don't think it work well on lollipop..
 
+if you want to use this one fix it.
+
+PrivacyActivity.java Line 74
+```java
+@Override
+public void onStop() {
+		ActivityManager am = (ActivityManager) this.getSystemService(Context.ACTIVITY_SERVICE);
+		List<RunningTaskInfo> list = am.getRunningTasks(1);
+
+		// check if this activity goes other application package
+		// it's not working on lollipop. fix it!
+		for (RunningTaskInfo info : list) {
+			  if (info.baseActivity.getClassName().indexOf(packageName) < 0) {
+				    isBackFromHomeKey = true;
+			  }
+		}
+		
+		super.onStop();
+}
+```
+
 ![](./screenshot_04.png)<br/>
 ![](./screenshot_05.png)<br/>
 ![](./screenshot_06.png)<br/>
