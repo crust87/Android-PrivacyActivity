@@ -27,7 +27,7 @@ public void onStop() {
 ![](./screenshot_05.png)<br/>
 ![](./screenshot_06.png)<br/>
 
-## Licence
+## License
 Copyright 2015 Mabi
 
 Licensed under the Apache License, Version 2.0 (the "License");<br/>
